@@ -44,5 +44,96 @@ Lita.configure do |config|
         frequency: "only_failures"
       }
     },
+    "Evan Arnold" => {
+      usernames: {
+        slack: "evan",
+        github: "earnold"
+      },
+      github_preferences: {
+        frequency: "all_discussion",
+        location: "dm"
+      },
+      travis_preferences: {
+        frequency: "only_failures"
+      }
+    },
+    "Devin Powell" => {
+      usernames: {
+        slack: "devin",
+        github: "dpowell7"
+      },
+      github_preferences: {
+        frequency: "all_discussion",
+        location: "dm"
+      },
+      travis_preferences: {
+        frequency: "only_failures"
+      }
+    },
+    "Jake Moffatt" => {
+      usernames: {
+        slack: "jake",
+        github: "jakeonrails"
+      },
+      github_preferences: {
+        frequency: "all_discussion",
+        location: "dm"
+      },
+      travis_preferences: {
+        frequency: "only_failures"
+      }
+    },
+    "Alex Neigher" => {
+      usernames: {
+        slack: "alex.neigher",
+        github: "alexneigher"
+      },
+      github_preferences: {
+        frequency: "all_discussion",
+        location: "dm"
+      },
+      travis_preferences: {
+        frequency: "only_failures"
+      }
+    },
+    "Eric Yang" => {
+      usernames: {
+        slack: "eric",
+        github: "yangez"
+      },
+      github_preferences: {
+        frequency: "all_discussion",
+        location: "dm"
+      },
+      travis_preferences: {
+        frequency: "only_failures"
+      }
+    },
+    "Feather Osborn" => {
+      usernames: {
+        slack: "feather",
+        github: "tuffylock"
+      },
+      github_preferences: {
+        frequency: "all_discussion",
+        location: "dm"
+      },
+      travis_preferences: {
+        frequency: "only_failures"
+      }
+    },
+    "Cristian Brotto" => {
+      usernames: {
+        slack: "cris",
+        github: "tycoool"
+      },
+      github_preferences: {
+        frequency: "all_discussion",
+        location: "dm"
+      },
+      travis_preferences: {
+        frequency: "only_failures"
+      }
+    },
   }
 end
