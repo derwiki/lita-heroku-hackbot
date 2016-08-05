@@ -40,6 +40,9 @@ Lita.configure do |config|
         frequency: "all_discussion",
         location: "dm"
       },
+      travis_preferences: {
+        frequency: "only_failures"
+      }
     },
   }
 end
