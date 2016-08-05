@@ -27,6 +27,8 @@ GEM
       thor (>= 0.18.1)
     lita-animate (1.1.0)
       lita (>= 2.0)
+    lita-github-pinger (0.6.5)
+      lita (>= 4.4)
     lita-google-images (2.0.0)
       lita (>= 4.0)
     lita-karma (3.0.2)
@@ -71,7 +73,11 @@ PLATFORMS
 DEPENDENCIES
   lita
   lita-animate
+  lita-github-pinger
   lita-google-images
   lita-karma
   lita-slack
   lita-wikipedia
+
+BUNDLED WITH
+   1.12.5

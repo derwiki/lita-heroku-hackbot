@@ -22,12 +22,24 @@ Lita.configure do |config|
   config.adapters.slack.token = ENV["SLACK_TOKEN"]
 
 
-  Lita.configure do |config|
-    config.redis[:url] = ENV["REDIS_URL"]
-    config.http.port = ENV["PORT"]
+  Lita.configure do |c|
+    c.redis[:url] = ENV["REDIS_URL"]
+    c.http.port = ENV["PORT"]
   end
 
   ## Example: Set configuration for any loaded handlers. See the handler's
   ## documentation for options.
   # config.handlers.some_handler.some_config_key = "value"
+  config.handlers.github_pinger.engineers = {
+    "Adam Derewecki" => {
+      usernames: {
+        slack: "adam",
+        github: "derwiki"
+      },
+      github_preferences: {
+        frequency: "all_discussion",
+        location: "dm"
+      },
+    },
+  }
 end
