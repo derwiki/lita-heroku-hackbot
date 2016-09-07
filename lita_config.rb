@@ -109,19 +109,6 @@ Lita.configure do |config|
         frequency: "only_failures"
       }
     },
-    "Feather Osborn" => {
-      usernames: {
-        slack: "feather",
-        github: "tuffylock"
-      },
-      github_preferences: {
-        frequency: "all_discussion",
-        location: "dm"
-      },
-      travis_preferences: {
-        frequency: "only_failures"
-      }
-    },
     "Cristian Brotto" => {
       usernames: {
         slack: "cris",
