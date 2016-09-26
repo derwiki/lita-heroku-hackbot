@@ -1,7 +1,7 @@
 GIT
   remote: git://github.com/SnapDocs/lita-github-pinger.git
-  revision: cc9b42208668795e791cf53a119bff8b532c89c0
-  ref: cc9b422
+  revision: be41031deee27d0e30ec115745b2d6f0559c0fd8
+  ref: be41031
   specs:
     lita-github-pinger (0.6.5)
       lita (>= 4.4)
