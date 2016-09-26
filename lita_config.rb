@@ -123,4 +123,10 @@ Lita.configure do |config|
       }
     },
   }
+
+  Lita.configure do |config|
+    # For example, using Heroku and their Postgresql addon, the database can be
+    # configured by simply doing:
+    config.handlers.markov.database_url = ENV['DATABASE_URL']
+  end
 end
