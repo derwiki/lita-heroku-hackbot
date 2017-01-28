@@ -6,5 +6,6 @@ gem "lita-google-images"
 gem "lita-animate"
 gem "lita-karma"
 gem "lita-wikipedia"
-gem "lita-github-pinger", github: 'SnapDocs/lita-github-pinger', ref: '968b95f'
+gem "lita-github-pinger", github: 'SnapDocs/lita-github-pinger', ref: 'fcdb11b'
 gem "lita-markov"
+gem "lita-regexcellent", github: 'yangez/lita-regexcellent', ref: '8b7fb1e'
